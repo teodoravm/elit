@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="contacts.css" />
+    <script src="./home.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="loading-container">
+      <div class="spinner"></div>
+    </div>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="./assets/logo2.png" />
+          <h1>Elit.</h1>
+        </div>
+        <a href="./index.html">Начало</a>
+        <a href="./about.html">За нас</a>
+        <a href="./courses.html">Курсове</a>
+        <a href="./contacts.html">Контакти</a>
+      </nav>
+    </header>
+    <section class="form">
+      <h1>
+        Не знаеш откъде да започнеш? Имаш въпроси относно курсовете? Свържи се с
+        нас и ще отгоровим в рамките на 24 часа!
+      </h1>
+      <div class="form-container">
+        <form action="#" method="post">
+          <div class="names">
+            <label for="name">Име:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="last-name">Фамилия:</label>
+            <input type="text" id="name" name="last-name" required />
+          </div>
+          <div class="contacts-container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="phone">Телефон:</label>
+            <input type="phone" id="phone" name="phone" />
+          </div>
+
+          <label id="label-message" for="message">Съобщение:</label>
+          <textarea id="message" name="message" rows="10" required></textarea>
+          <button type="submit">Изпращане</button>
+        </form>
+        <img src="./assets/contacts.png" />
+      </div>
+      <div class="elit-contacts">
+        <h1></h1>
+        <div class="contact-elem">
+          <img src="./assets/email.png" />
+          <a href="malito: help@elit.com">help@elit.com</a>
+        </div>
+        <div class="contact-elem">
+          <img src="./assets/call.png" />
+          <a href="tel:+359898591090">0888 523 6437</a>
+        </div>
+        <div class="contact-elem">
+          <img src="./assets/placeholder.png" />
+          <a href="#">бул. "Княз Борис I" 77, 9002 Център, Варна</a>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11632.082449497877!2d27.923601!3d43.209057!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4540939dfa6d5%3A0x3d401ef3c09a59bf!2sUniversity%20of%20Economics%20%E2%80%93%20Varna!5e0!3m2!1sen!2sbg!4v1704018077855!5m2!1sen!2sbg"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <footer>
+      <img class="logo" src="./assets/logo2.png" />
+      <div class="footer-items">
+        <div class="contacts">
+          <h3>Контакти</h3>
+          <div class="contact-item">
+            <img src="./assets/call.png" />
+            <a href="tel:+359898591090">0888 523 6437</a>
+          </div>
+          <div class="contact-item">
+            <img src="./assets/email.png" />
+            <a href="malito: help@elit.com">help@elit.com</a>
+          </div>
+          <div class="contact-item">
+            <img src="./assets/facebook.png" />
+            <a href="https://facebook.com">Facebook</a>
+          </div>
+          <div class="contact-item">
+            <img src="./assets/instagram.png" />
+            <a href="https://Instagram.com">Instagram</a>
+          </div>
+        </div>
+        <div class="menu">
+          <h3>Бърз достъп</h3>
+          <a href="./about.html">За нас</a>
+          <a href="./courses.html">Курсове</a>
+          <a href="./contacts.html">Контакти</a>
+        </div>
+        <div class="menu">
+          <h3>Партньори</h3>
+          <div class="partners-list">
+            <img src="./assets/ciela.png" />
+            <img src="./assets/forbess.png" />
+            <img src="./assets/unicef.png" />
+            <div class="break"></div>
+            <img src="./assets/bloomberg.jpg" />
+            <img src="./assets/nettera.png" />
+            <img src="./assets/wish.webp" />
+          </div>
+        </div>
+      </div>
+      <p>© 2023 TeodoraMindizova™ All rights reserved.</p>
+    </footer>
+  </body>
+</html>
