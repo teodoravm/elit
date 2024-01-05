@@ -1,3 +1,65 @@
+html,
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  margin: 0;
+}
+
+h1 {
+  font-family: sans-serif, Arial, Helvetica;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+p {
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 1em;
+}
+
+nav {
+  background-color: #c6d8dc;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+.logo-container {
+  display: flex;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 7 0px;
+  height: 70px;
+  margin-left: 1%;
+  margin-right: 0;
+}
+
+.logo-container h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  color: #525151;
+}
+nav a {
+  order: 1;
+  float: right;
+  display: flex;
+  color: black;
+  text-align: center;
+  align-items: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #aed4d7;
+  color: black;
+}
+
 .team-members {
   padding: 20px;
   display: flex;
@@ -127,4 +189,82 @@
   justify-content: center;
   text-align: center;
   font-weight: lighter;
+}
+
+footer {
+  margin-top: 3%;
+  height: fit-content;
+  padding: 5px;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: rgb(38, 38, 68);
+  color: white;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  gap: 8%;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.contact-item {
+  padding: 5px;
+}
+
+.contact-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.menu a {
+  padding: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-size: smaller;
+}
+
+.partners-list img {
+  width: 150px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 35px;
+}
+
+.partners-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
 }
